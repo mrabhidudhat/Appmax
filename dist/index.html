@@ -1,11 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project 2</title>
+  </head>
+  <body class="font-body">
+    <!-- Navbar start here -->
+    <div
+      class="bg-gradient-to-r from-purple-600 to-red-500 pb-16 md:pb-[12.9rem]"
+      style="background-image: url(../Asset/BG\ lg.png)"
+    >
+      <nav class="sm:bg-none w-full flex sm:items-center justify-between">
+        <div class="p-3 md:pl-20 md:w-[12rem] w-[10rem] h-auto">
+          <img src="../Asset/Logo.svg" alt="Logo" />
+        </div>
+        <div class="md:hidden pr-5 pt-4">
+          <button class="text-white" id="menu-toggle">
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+              <path
+                d="M4 6h16M4 12h16M4 18h16"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </button>
+          <div id="menu" class="hidden border-black">
+            <ul>
+              <li><a href="#">Demos</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Sign Up</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="hidden md:flex text-white">
+          <ul class="flex">
+            <li class="pl-12"><a href="#">Demos</a></li>
+            <li class="pl-12"><a href="#">Features</a></li>
+            <li class="pl-12"><a href="#">Pricing</a></li>
+            <li class="pl-12"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="hidden md:block text-white md:pr-5">
+          <ul class="flex text-center justify-center">
+            <li class="pt-2 pl-6 pr-6"><a href="#">Login</a></li>
+            <li
+              class="border-white text-black border-2 rounded-md bg-white pt-2 w-28 h-10"
+            >
+              <a href="#">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="md:flex md:justify-between">
+        <div class="pt-14 text-center md:text-left md:pl-20 md:pt-24">
+          <div class="text-white font-bold text-4xl md:text-5xl">
+            <p>We're building</p>
+            <p>software for boost</p>
+            <p>your business</p>
+          </div>
+          <div class="text-white pt-5 md:hidden">
+            <p>An enim nullam tempor sapien gravida donec</p>
+            <p>enim ipsum porta justo integer at odio velna</p>
+            <p>vitae auctor integer congue magna at pretium</p>
+            <p>purus pretium ligula rutrum luctus risus</p>
+          </div>
+          <div class="hidden md:block text-white pt-6">
+            <p>An enim nullam tempor sapien gravida donec enim ipsum</p>
+            <p>porta justo integer at odio velna vitae auctor integer congue</p>
+            <p>magna at pretium purus pretium ligula rutrum luctus risus</p>
+          </div>
+          <div class="pt-5">
+            <button
+              class="bg-white text-[#781BFF] w-[14rem] h-[3rem] rounded-md"
+            >
+              Start 14 Days Free Trial
+            </button>
+          </div>
+        </div>
+        <div class="hidden md:block pt-14">
+          <img src="../Asset/Laptop Hscreen.png" alt="Laptop" />
+        </div>
+      </div>
+      <div class="md:hidden pt-12 justify-center items-center flex">
+        <img src="../Asset/Laptop Fscreen.png" alt="Laptop" />
+      </div>
+    </div>
+    <!-- Navbar end here -->
+    <!-- Banner Section start here -->
+    <div class="md:flex md:justify-center md:items-center">
+      <div class="flex justify-center items-center pt-5 md:p-5 md:pt-10">
+        <img
+          class="p-5"
+          src="../Asset/innovativ Solution.png"
+          alt="Innovativ Solution"
+        />
+        <div>
+          <p class="text-xl font-bold">Innovativ Solution</p>
+          <p>Fully layered dolor adipisicing elit</p>
+          <p>facere, nobis, id expedita.</p>
+        </div>
+      </div>
+      <div class="flex justify-center items-center pt-5 md:p-5">
+        <img
+          class="p-5"
+          src="../Asset/Clear Navigation.png"
+          alt="Clear Navigation"
+        />
+        <div>
+          <p class="text-xl font-bold">Clear Navigation</p>
+          <p>Fully layered dolor adipisicing elit</p>
+          <p>facere, nobis, id expedita.</p>
+        </div>
+      </div>
+      <div class="flex justify-center items-center pt-5 md:p-5">
+        <img
+          class="p-5"
+          src="../Asset/Over 800 Clients.png"
+          alt="Over 800 Clients"
+        />
+        <div>
+          <p class="text-xl font-bold">Over 800 Clients</p>
+          <p>Fully layered dolor adipisicing elit</p>
+          <p>facere, nobis, id expedita.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Banner Section End here -->
+    <!-- About our software start here  -->
+    <div
+      class="bg-[#761bff10] md:flex md:flex-row-reverse md:justify-between md:items-center md:pl-32 md:pr-24 pb-10"
+    >
+      <div class="rounded-md">
+        <img src="../Asset/Video LaptopS.svg" alt="Video" />
+      </div>
+      <div class="pl-5">
+        <p class="text-[#781BFF] text-2xl font-bold">About our software</p>
+        <p class="text-3xl md:text-5xl font-bold pt-5">Organize your tasks</p>
+        <p class="text-3xl md:text-5xl font-bold pt-2">& boost productivity.</p>
+        <div class="md:hidden pt-3 pb-7">
+          <p>There are many scenarios that could result</p>
+          <p>in initiated attacks. These can be an giving</p>
+          <p>away login credentials.</p>
+        </div>
+        <div class="hidden md:block pt-3 pb-7">
+          <p>There are many scenarios that could result in initiated</p>
+          <p>attacks. These can be an giving away login credentials.</p>
+        </div>
+        <button
+          class="flex justify-center items-center w-40 h-10 rounded-sm bg-[#FD4C5C] text-white"
+        >
+          Get Started
+        </button>
+      </div>
+    </div>
+    <!-- About our software end here  -->
+    <!-- Why Choose Us Section Start Here -->
+    <div
+      class="md:flex md:justify-between md:items-center md:pl-28 md:pr-24 pb-10"
+    >
+      <div class="rounded-md pt-5">
+        <img
+          class="md:w-[37rem]"
+          src="../Asset/Group 420.png"
+          alt="Group 420"
+        />
+      </div>
+      <div class="pl-5">
+        <p class="text-[#781BFF] text-2xl font-bold">Why Choose Us</p>
+        <p class="text-3xl md:text-5xl font-bold pt-5">
+          Starting with sofex is
+        </p>
+        <p class="text-3xl md:text-5xl font-bold pt-2">easier than anything!</p>
+        <div class="md:hidden pt-3 pb-7">
+          <p>Vero homero perfecto mei ut, sonet aperiam an</p>
+          <p>nec. Ni nec dict altera legimu. Me vita de lege</p>
+          <p>ndo haeo tibi que com titure viset cut.Proin</p>
+          <p>tempus elit a laoreet volut pat.</p>
+        </div>
+        <div class="hidden md:block pt-3 pb-7">
+          <p>Vero homero perfecto mei ut, sonet aperiam an nec. Ni</p>
+          <p>nec dict altera legimu. Me vita de lege ndo haeo tibi que</p>
+          <p>com titure viset cut.Proin tempus elit a laoreet volut pat.</p>
+        </div>
+        <button
+          class="flex justify-center items-center w-40 h-10 rounded-sm bg-[#FD4C5C] text-white"
+        >
+          Download Now
+        </button>
+      </div>
+    </div>
+    <!-- Why Choose Us Section end Here -->
+    <!-- How It Works Section Starts Here -->
+    <div
+      class="bg-[#761bff10] md:flex md:justify-between md:items-center md:pl-28 md:pr-44 pb-10 pt-10"
+    >
+      <div class="pl-5">
+        <p class="text-[#781BFF] text-2xl font-bold">How It Works</p>
+        <p class="text-3xl md:text-5xl font-bold pt-5">
+          Acceleration process to
+        </p>
+        <p class="text-3xl md:text-5xl font-bold pt-2">grow your business.</p>
+        <div class="md:hidden pt-3 pb-7">
+          <p>There are many scenarios that could result int</p>
+          <p>initiated attacks. These can be an giving away</p>
+          <p>login credentials.</p>
+        </div>
+        <div class="hidden md:block pt-3 pb-7">
+          <p>There are many scenarios that could result in initiated</p>
+          <p>attacks. These can be an giving away login credentials.</p>
+        </div>
+        <button
+          class="flex justify-center items-center w-40 h-10 rounded-sm bg-[#FD4C5C] text-white"
+        >
+          Live Demo
+        </button>
+      </div>
+      <div>
+        <div class="flex justify-center items-center pt-5 md:p-2 md:pt-10">
+          <img class="pt-5 pb-5 pr-5" src="../Asset/Group 421.png" alt="No.1" />
+          <div>
+            <p class="text-xl font-bold">Market Research</p>
+            <p>Fully layered dolor adipisicing elit</p>
+            <p>facere, nobis, id expedita.</p>
+          </div>
+        </div>
+        <div class="flex justify-center items-center pt-5 md:p-2">
+          <img class="pt-5 pb-5 pr-5" src="../Asset/Group 422.png" alt="No.2" />
+          <div>
+            <p class="text-xl font-bold">Strategy & Direction</p>
+            <p>Fully layered dolor adipisicing elit</p>
+            <p>facere, nobis, id expedita.</p>
+          </div>
+        </div>
+        <div class="flex justify-center items-center pt-5 md:p-2">
+          <img class="pt-5 pb-5 pr-5" src="../Asset/Group 423.png" alt="No.3" />
+          <div>
+            <p class="text-xl font-bold">Brand Marketing</p>
+            <p>Fully layered dolor adipisicing elit</p>
+            <p>facere, nobis, id expedita.</p>
+          </div>
+        </div>
+        <div class="flex justify-center items-center pt-5 md:p-2">
+          <img class="pt-5 pb-5 pr-5" src="../Asset/Group 424.png" alt="No.4" />
+          <div>
+            <p class="text-xl font-bold">Smart Scaling</p>
+            <p>Fully layered dolor adipisicing elit</p>
+            <p>facere, nobis, id expedita.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- How It Works Section end Here -->
+    <!-- Pricing & Plans Section Start Here -->
+    <div>
+      <div class="text-center">
+        <p class="text-[#781BFF] text-2xl font-bold pt-14">Pricing & Plans</p>
+        <p class="text-4xl font-bold pt-5">We have exclusive</p>
+        <p class="text-4xl font-bold">plans for you to choose</p>
+      </div>
+      <div class="flex justify-center items-center pt-10">
+        <p class="text-lg p-5 font-semibold">Monthly</p>
+        <label class="relative inline-flex items-center cursor-pointer">
+          <input type="checkbox" value="" class="sr-only peer" checked />
+          <div
+            class="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"
+          ></div>
+        </label>
+        <p class="text-lg p-5 font-semibold">Yearly</p>
+      </div>
+      <div>
+        <!-- flex -->
+        <div class="border-2 border-black">
+          <p>Starter Plan</p>
+          <p>$5</p>
+          <p>Per Month</p>
+          <div></div>
+          <div>
+            <div class="flex">
+              <img src="../Asset/True Sym.png" />
+              <p>10 GB Disk Space</p>
+            </div>
+            <div class="flex">
+              <img src="../Asset/True Sym.png" />
+              <p>√ 1 Year Support</p>
+            </div>
+            <div class="flex">
+              <img src="../Asset/True Sym.png" />
+              <p>√ 500 Queries</p>
+            </div>
+            <div class="flex">
+              <img src="../Asset/True Sym.png" />
+              <p>√ Basic Statistics</p>
+            </div>
+            <div class="flex">
+              <img src="../Asset/True Sym.png" />
+              <p>√ Free Custom Domain</p>
+            </div>
+          </div>
+          <div>
+            <button>Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing & Plans Section end Here -->
+  </body>
+  <!-- JavaScript to toggle the menu -->
+  <script>
+    document
+      .getElementById("menu-toggle")
+      .addEventListener("click", function () {
+        const menu = document.getElementById("menu");
+        menu.classList.toggle("hidden");
+      });
+  </script>
 </html>
